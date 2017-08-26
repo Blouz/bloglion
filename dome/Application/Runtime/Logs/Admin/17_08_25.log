@@ -1,0 +1,693 @@
+[ 2017-08-25T10:23:39+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000578s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049331s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003936s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006343s ]
+
+[ 2017-08-25T10:23:46+08:00 ] 127.0.0.1 /admin.php/Login/log_in?adm_name=home&adm_pwd=456456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004800s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0305s ]
+SQL: SELECT * FROM `blog_admin` WHERE `adm_name` = 'home' LIMIT 1   [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000407s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002622s ]
+
+[ 2017-08-25T10:23:49+08:00 ] 127.0.0.1 /admin.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001786s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003096s ]
+
+[ 2017-08-25T10:23:56+08:00 ] 127.0.0.1 /admin.php/Login/log_in?adm_name=home&adm_pwd=789789
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003267s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0465s ]
+SQL: SELECT * FROM `blog_admin` WHERE `adm_name` = 'home' LIMIT 1   [ RunTime:0.0016s ]
+SQL: UPDATE `blog_admin` SET `adm_last_time`='2017-08-25 10:23:56',`adm_ip`='127.0.0.1' WHERE `id` = 1 [ RunTime:0.0100s ]
+
+[ 2017-08-25T10:23:57+08:00 ] 127.0.0.1 /admin.php/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004916s ]
+SQL: SHOW COLUMNS FROM `blog_deploy` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `blog_deploy`  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0313s ]
+SQL: SELECT * FROM `blog_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `blog_admin`  [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0346s ]
+SQL: SELECT * FROM `blog_article`  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000982s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001477s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011653s ]
+
+[ 2017-08-25T10:23:58+08:00 ] 127.0.0.1 /admin.php/Index/count.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002072s ]
+SQL: SHOW COLUMNS FROM `blog_deploy` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `blog_deploy`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `blog_access` [ RunTime:0.0148s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_access` WHERE (  `ac_time` >= 1503590400 ) AND (  `ac_time` <= 1503676799 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `ac_ip` FROM `blog_access` WHERE (  `ac_time` >= 1503590400 ) AND (  `ac_time` <= 1503676799 ) GROUP BY ac_ip  [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_access` WHERE (  `ac_time` >= 1503504000 ) AND (  `ac_time` <= 1503590399 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `ac_ip` FROM `blog_access` WHERE (  `ac_time` >= 1503504000 ) AND (  `ac_time` <= 1503590399 ) GROUP BY ac_ip  [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_access` WHERE (  `ac_time` >= 1503417600 ) AND (  `ac_time` <= 1503503999 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `ac_ip` FROM `blog_access` WHERE (  `ac_time` >= 1503417600 ) AND (  `ac_time` <= 1503503999 ) GROUP BY ac_ip  [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_access` WHERE (  `ac_time` >= 1503331200 ) AND (  `ac_time` <= 1503417599 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `ac_ip` FROM `blog_access` WHERE (  `ac_time` >= 1503331200 ) AND (  `ac_time` <= 1503417599 ) GROUP BY ac_ip  [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_access` WHERE (  `ac_time` >= 1503244800 ) AND (  `ac_time` <= 1503331199 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `ac_ip` FROM `blog_access` WHERE (  `ac_time` >= 1503244800 ) AND (  `ac_time` <= 1503331199 ) GROUP BY ac_ip  [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_access` WHERE (  `ac_time` >= 1503158400 ) AND (  `ac_time` <= 1503244799 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `ac_ip` FROM `blog_access` WHERE (  `ac_time` >= 1503158400 ) AND (  `ac_time` <= 1503244799 ) GROUP BY ac_ip  [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_access` WHERE (  `ac_time` >= 1503072000 ) AND (  `ac_time` <= 1503158399 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `ac_ip` FROM `blog_access` WHERE (  `ac_time` >= 1503072000 ) AND (  `ac_time` <= 1503158399 ) GROUP BY ac_ip  [ RunTime:0.0026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002195s ]
+
+[ 2017-08-25T10:32:10+08:00 ] 127.0.0.1 /admin.php/Article/article_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004418s ]
+SQL: SHOW COLUMNS FROM `blog_deploy` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `blog_deploy`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `blog_sort` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `blog_sort`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000303s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002586s ]
+
+[ 2017-08-25T10:32:10+08:00 ] 127.0.0.1 /admin.php/Article/article_show.html?page=undefined&size=undefined&type=&textkey=&stime=&etime=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002514s ]
+SQL: SHOW COLUMNS FROM `blog_deploy` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `blog_deploy`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0169s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( blog_status=0  ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0143s ]
+SQL: SELECT * FROM blog_article a INNER JOIN blog_sort s on a.blog_sort = s.sort_id  WHERE ( blog_status=0  ) LIMIT 0,3   [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001695s ]
+
+[ 2017-08-25T10:32:17+08:00 ] 127.0.0.1 /admin.php/Article/article_show.html?page=2&size=undefined&type=&textkey=&stime=&etime=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002748s ]
+SQL: SHOW COLUMNS FROM `blog_deploy` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `blog_deploy`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0144s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( blog_status=0  ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0147s ]
+SQL: SELECT * FROM blog_article a INNER JOIN blog_sort s on a.blog_sort = s.sort_id  WHERE ( blog_status=0  ) LIMIT 3,3   [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001703s ]
+
+[ 2017-08-25T10:32:18+08:00 ] 127.0.0.1 /admin.php/Article/article_show.html?page=1&size=undefined&type=&textkey=&stime=&etime=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002103s ]
+SQL: SHOW COLUMNS FROM `blog_deploy` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `blog_deploy`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( blog_status=0  ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0149s ]
+SQL: SELECT * FROM blog_article a INNER JOIN blog_sort s on a.blog_sort = s.sort_id  WHERE ( blog_status=0  ) LIMIT 0,3   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001658s ]
+
+[ 2017-08-25T10:32:21+08:00 ] 127.0.0.1 /admin.php/Article/article_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002209s ]
+SQL: SHOW COLUMNS FROM `blog_deploy` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `blog_deploy`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `blog_label` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `blog_label`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `blog_sort` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `blog_sort`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001938s ]
+
+[ 2017-08-25T10:32:24+08:00 ] 127.0.0.1 /admin.php/Article/article_sort.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002445s ]
+SQL: SHOW COLUMNS FROM `blog_deploy` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `blog_deploy`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002108s ]
+
+[ 2017-08-25T10:32:26+08:00 ] 127.0.0.1 /admin.php/Article/article_label.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001796s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002118s ]
+SQL: SHOW COLUMNS FROM `blog_deploy` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `blog_deploy`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_label` [ RunTime:0.0154s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_label` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_label` LIMIT 0,5   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000406s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000620s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003271s ]
+
+[ 2017-08-25T10:32:27+08:00 ] 127.0.0.1 /admin.php/Log/log_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002152s ]
+SQL: SHOW COLUMNS FROM `blog_deploy` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `blog_deploy`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002040s ]
+
+[ 2017-08-25T10:32:28+08:00 ] 127.0.0.1 /admin.php/Log/log_show.html?page=1&size=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002458s ]
+SQL: SHOW COLUMNS FROM `blog_deploy` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `blog_deploy`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `blog_adm_com` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `blog_adm_com` LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_adm_com` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001644s ]
+
+[ 2017-08-25T10:32:30+08:00 ] 127.0.0.1 /admin.php/Article/article_recy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002066s ]
+SQL: SHOW COLUMNS FROM `blog_deploy` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `blog_deploy`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000320s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002173s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002349s ]
+
+[ 2017-08-25T10:32:31+08:00 ] 127.0.0.1 /admin.php/Article/article_recy.html?page=1&size=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002029s ]
+SQL: SHOW COLUMNS FROM `blog_deploy` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `blog_deploy`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `blog_article` WHERE `blog_status` = 1 LIMIT 0,5   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE `blog_status` = 1 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002465s ]
+
+[ 2017-08-25T10:32:35+08:00 ] 127.0.0.1 /admin.php/Conf/conf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001918s ]
+SQL: SHOW COLUMNS FROM `blog_deploy` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `blog_deploy`  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `blog_deploy`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000331s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001971s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002159s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002309s ]
+
+[ 2017-08-25T10:32:38+08:00 ] 127.0.0.1 /admin.php/Link/link.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001865s ]
+SQL: SHOW COLUMNS FROM `blog_deploy` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `blog_deploy`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-08-25T10:32:51+08:00 ] 127.0.0.1 /admin.php/Conf/conf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001748s ]
+SQL: SHOW COLUMNS FROM `blog_deploy` [ RunTime:0.0167s ]
+SQL: SELECT * FROM `blog_deploy`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `blog_deploy`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001986s ]
+
+[ 2017-08-25T15:35:04+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002997s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003911s ]
+
+[ 2017-08-25T15:35:11+08:00 ] 127.0.0.1 /admin.php/Login/log_in?adm_name=home&adm_pwd=456456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002227s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0248s ]
+SQL: SELECT * FROM `blog_admin` WHERE `adm_name` = 'home' LIMIT 1   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001321s ]
+
+[ 2017-08-25T15:35:11+08:00 ] 127.0.0.1 /admin.php/Login/log_in?adm_name=home&adm_pwd=456456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005463s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `blog_admin` WHERE `adm_name` = 'home' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025519s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001618s ]
+
+[ 2017-08-25T15:35:11+08:00 ] 127.0.0.1 /admin.php/Login/log_in?adm_name=home&adm_pwd=456456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004385s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `blog_admin` WHERE `adm_name` = 'home' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020534s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001476s ]
+
+[ 2017-08-25T15:35:14+08:00 ] 127.0.0.1 /admin.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004136s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004430s ]
+
+[ 2017-08-25T15:35:21+08:00 ] 127.0.0.1 /admin.php/Login/log_in?adm_name=home&adm_pwd=789789
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004074s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0224s ]
+SQL: SELECT * FROM `blog_admin` WHERE `adm_name` = 'home' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `blog_admin` SET `adm_last_time`='2017-08-25 15:35:21',`adm_ip`='127.0.0.1' WHERE `id` = 1 [ RunTime:0.0053s ]
+
+[ 2017-08-25T15:35:21+08:00 ] 127.0.0.1 /admin.php/Login/log_in?adm_name=home&adm_pwd=789789
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002333s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `blog_admin` WHERE `adm_name` = 'home' LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `blog_admin` SET `adm_last_time`='2017-08-25 15:35:21',`adm_ip`='127.0.0.1' WHERE `id` = 1 [ RunTime:0.0038s ]
+
+[ 2017-08-25T15:35:22+08:00 ] 127.0.0.1 /admin.php/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002293s ]
+SQL: SHOW COLUMNS FROM `blog_deploy` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `blog_deploy`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `blog_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `blog_admin`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `blog_article`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000669s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002710s ]
+
+[ 2017-08-25T15:35:22+08:00 ] 127.0.0.1 /admin.php/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001714s ]
+SQL: SHOW COLUMNS FROM `blog_deploy` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `blog_deploy`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `blog_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_admin`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `blog_article`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000395s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029480s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002299s ]
+
+[ 2017-08-25T15:35:22+08:00 ] 127.0.0.1 /admin.php/Index/count.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002070s ]
+SQL: SHOW COLUMNS FROM `blog_deploy` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `blog_deploy`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_access` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_access` WHERE (  `ac_time` >= 1503590400 ) AND (  `ac_time` <= 1503676799 ) LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT `ac_ip` FROM `blog_access` WHERE (  `ac_time` >= 1503590400 ) AND (  `ac_time` <= 1503676799 ) GROUP BY ac_ip  [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_access` WHERE (  `ac_time` >= 1503504000 ) AND (  `ac_time` <= 1503590399 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `ac_ip` FROM `blog_access` WHERE (  `ac_time` >= 1503504000 ) AND (  `ac_time` <= 1503590399 ) GROUP BY ac_ip  [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_access` WHERE (  `ac_time` >= 1503417600 ) AND (  `ac_time` <= 1503503999 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `ac_ip` FROM `blog_access` WHERE (  `ac_time` >= 1503417600 ) AND (  `ac_time` <= 1503503999 ) GROUP BY ac_ip  [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_access` WHERE (  `ac_time` >= 1503331200 ) AND (  `ac_time` <= 1503417599 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `ac_ip` FROM `blog_access` WHERE (  `ac_time` >= 1503331200 ) AND (  `ac_time` <= 1503417599 ) GROUP BY ac_ip  [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_access` WHERE (  `ac_time` >= 1503244800 ) AND (  `ac_time` <= 1503331199 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `ac_ip` FROM `blog_access` WHERE (  `ac_time` >= 1503244800 ) AND (  `ac_time` <= 1503331199 ) GROUP BY ac_ip  [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_access` WHERE (  `ac_time` >= 1503158400 ) AND (  `ac_time` <= 1503244799 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `ac_ip` FROM `blog_access` WHERE (  `ac_time` >= 1503158400 ) AND (  `ac_time` <= 1503244799 ) GROUP BY ac_ip  [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_access` WHERE (  `ac_time` >= 1503072000 ) AND (  `ac_time` <= 1503158399 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `ac_ip` FROM `blog_access` WHERE (  `ac_time` >= 1503072000 ) AND (  `ac_time` <= 1503158399 ) GROUP BY ac_ip  [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001763s ]
+
+[ 2017-08-25T15:35:41+08:00 ] 127.0.0.1 /admin.php/Article/article_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002892s ]
+SQL: SHOW COLUMNS FROM `blog_deploy` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `blog_deploy`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `blog_sort` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `blog_sort`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002431s ]
+
+[ 2017-08-25T15:35:42+08:00 ] 127.0.0.1 /admin.php/Article/article_show.html?page=undefined&size=undefined&type=&textkey=&stime=&etime=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002190s ]
+SQL: SHOW COLUMNS FROM `blog_deploy` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `blog_deploy`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( blog_status=0  ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0138s ]
+SQL: SELECT * FROM blog_article a INNER JOIN blog_sort s on a.blog_sort = s.sort_id  WHERE ( blog_status=0  ) LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001760s ]
+
+[ 2017-08-25T15:35:45+08:00 ] 127.0.0.1 /admin.php/Article/article_show.html?page=2&size=undefined&type=&textkey=&stime=&etime=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001999s ]
+SQL: SHOW COLUMNS FROM `blog_deploy` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `blog_deploy`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0171s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( blog_status=0  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0170s ]
+SQL: SELECT * FROM blog_article a INNER JOIN blog_sort s on a.blog_sort = s.sort_id  WHERE ( blog_status=0  ) LIMIT 3,3   [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002631s ]
+
+[ 2017-08-25T15:35:47+08:00 ] 127.0.0.1 /admin.php/Article/article_show.html?page=1&size=undefined&type=&textkey=&stime=&etime=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002116s ]
+SQL: SHOW COLUMNS FROM `blog_deploy` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `blog_deploy`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0134s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( blog_status=0  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0133s ]
+SQL: SELECT * FROM blog_article a INNER JOIN blog_sort s on a.blog_sort = s.sort_id  WHERE ( blog_status=0  ) LIMIT 0,3   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002024s ]
+

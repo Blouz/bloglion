@@ -1,0 +1,72 @@
+[ 2017-08-23T11:06:05+08:00 ] 127.0.0.1 /dome/admin.php/Clear/aw_Ay.html
+NOTIC: [2] mkdir(): Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 67 行.
+NOTIC: [2] mkdir(): Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 67 行.
+NOTIC: [2] mkdir(): Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 67 行.
+NOTIC: [2] mkdir(): Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 67 行.
+NOTIC: [2] mkdir(): Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 67 行.
+NOTIC: [2] mkdir(): Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 67 行.
+NOTIC: [2] mkdir(): Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 67 行.
+NOTIC: [2] mkdir(): Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 67 行.
+NOTIC: [2] file_put_contents(./Application/Inde
+x/index.html): failed to open stream: Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 161 行.
+NOTIC: [2] file_put_contents(./Application/Inde
+x/Common/index.html): failed to open stream: Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 161 行.
+NOTIC: [2] file_put_contents(./Application/Inde
+x/Controller/index.html): failed to open stream: Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 161 行.
+NOTIC: [2] file_put_contents(./Application/Inde
+x/Model/index.html): failed to open stream: Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 161 行.
+NOTIC: [2] file_put_contents(./Application/Inde
+x/Conf/index.html): failed to open stream: Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 161 行.
+NOTIC: [2] file_put_contents(./Application/Inde
+x/View/index.html): failed to open stream: Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 161 行.
+NOTIC: [2] file_put_contents(./Application/Runtime/Cache/Inde
+x/index.html): failed to open stream: Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 161 行.
+NOTIC: [2] file_put_contents(./Application/Runtime/Logs/Inde
+x/index.html): failed to open stream: Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 161 行.
+NOTIC: [2] file_put_contents(./Application/Inde
+x/Conf/config.php): failed to open stream: Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 76 行.
+NOTIC: [2] mkdir(): Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 127 行.
+NOTIC: [2] file_put_contents(./Application/Inde
+x/Controller/IndexController.class.php): failed to open stream: Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 129 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+ERR: 无法加载模块:Inde
+x
+
+[ 2017-08-23T11:06:05+08:00 ] 127.0.0.1 /dome/admin.php/Clear/aw_Ay.html
+NOTIC: [2] mkdir(): Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 67 行.
+NOTIC: [2] mkdir(): Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 67 行.
+NOTIC: [2] mkdir(): Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 67 行.
+NOTIC: [2] mkdir(): Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 67 行.
+NOTIC: [2] mkdir(): Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 67 行.
+NOTIC: [2] mkdir(): Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 67 行.
+NOTIC: [2] mkdir(): Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 67 行.
+NOTIC: [2] mkdir(): Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 67 行.
+NOTIC: [2] file_put_contents(./Application/Inde
+x/index.html): failed to open stream: Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 161 行.
+NOTIC: [2] file_put_contents(./Application/Inde
+x/Common/index.html): failed to open stream: Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 161 行.
+NOTIC: [2] file_put_contents(./Application/Inde
+x/Controller/index.html): failed to open stream: Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 161 行.
+NOTIC: [2] file_put_contents(./Application/Inde
+x/Model/index.html): failed to open stream: Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 161 行.
+NOTIC: [2] file_put_contents(./Application/Inde
+x/Conf/index.html): failed to open stream: Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 161 行.
+NOTIC: [2] file_put_contents(./Application/Inde
+x/View/index.html): failed to open stream: Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 161 行.
+NOTIC: [2] file_put_contents(./Application/Runtime/Cache/Inde
+x/index.html): failed to open stream: Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 161 行.
+NOTIC: [2] file_put_contents(./Application/Runtime/Logs/Inde
+x/index.html): failed to open stream: Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 161 行.
+NOTIC: [2] file_put_contents(./Application/Inde
+x/Conf/config.php): failed to open stream: Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 76 行.
+NOTIC: [2] mkdir(): Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 127 行.
+NOTIC: [2] file_put_contents(./Application/Inde
+x/Controller/IndexController.class.php): failed to open stream: Invalid argument D:\web\apache\htdocs\dome\ThinkPHP\Library\Think\Build.class.php 第 129 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+ERR: 无法加载模块:Inde
+x
+

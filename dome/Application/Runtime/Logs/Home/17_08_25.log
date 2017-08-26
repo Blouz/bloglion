@@ -1,0 +1,107 @@
+[ 2017-08-25T09:06:28+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002368s ]
+
+[ 2017-08-25T09:06:31+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005865s ]
+SQL: SHOW COLUMNS FROM `blog_access` [ RunTime:0.0126s ]
+SQL: INSERT INTO `blog_access` (`ac_ip`,`ac_time`,`user_agent`,`ac_url`,`user_name`) VALUES ('127.0.0.1','1503623191','Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36','/index.php',' ') [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `blog_article`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `blog_src` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `blog_src` WHERE (  ar_id = 88 or  ar_id = 90 or  ar_id = 106 or  ar_id = 107 or  ar_id = 108 or  ar_id = 109 or  ar_id = 110 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_label` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `blog_label` WHERE (  la_id = 10 or  la_id = 15 or  la_id = 16 or  la_id = 18 or  la_id = 23 or  la_id = 12 or  la_id = 19 or  la_id = 22 or  la_id = 21 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003823s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004548s ]
+
+[ 2017-08-25T09:06:46+08:00 ] 127.0.0.1 /index.php/Detail/article_Sum.html?id=108
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003677s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0141s ]
+SQL: UPDATE `blog_article` SET `blog_sum`=blog_sum+1 WHERE `blog_id` = 108 [ RunTime:0.0034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003002s ]
+
+[ 2017-08-25T09:06:46+08:00 ] 127.0.0.1 /index.php/Detail/detail_Show.html?id=108
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008778s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `blog_article` WHERE `blog_id` = 108 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000453s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004947s ]
+
+[ 2017-08-25T10:25:53+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007379s ]
+NOTIC: [8] Undefined index: username D:\web\apache\htdocs\dome\Application\Home\Common\function.php 第 24 行.
+SQL: SHOW COLUMNS FROM `blog_access` [ RunTime:0.0151s ]
+SQL: INSERT INTO `blog_access` (`ac_ip`,`ac_time`,`user_agent`,`ac_url`,`user_name`) VALUES ('127.0.0.1','1503627953','Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36','/index.php',NULL) [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0167s ]
+SQL: SELECT * FROM `blog_article`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `blog_src` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `blog_src` WHERE (  ar_id = 88 or  ar_id = 90 or  ar_id = 106 or  ar_id = 107 or  ar_id = 108 or  ar_id = 109 or  ar_id = 110 )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `blog_label` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `blog_label` WHERE (  la_id = 10 or  la_id = 15 or  la_id = 16 or  la_id = 18 or  la_id = 23 or  la_id = 12 or  la_id = 19 or  la_id = 22 or  la_id = 21 )  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000345s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004778s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002641s ]
+
+[ 2017-08-25T15:35:03+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000442s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006766s ]
+
+[ 2017-08-25T15:35:03+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001118s ]
+

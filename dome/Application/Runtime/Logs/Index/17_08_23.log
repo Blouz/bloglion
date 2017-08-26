@@ -1,0 +1,18 @@
+[ 2017-08-23T11:06:19+08:00 ] 127.0.0.1 /dome/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003897s ]
+ERR: 无法加载控制器:Login
+
+[ 2017-08-23T11:07:01+08:00 ] 127.0.0.1 /dome/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002953s ]
+ERR: 无法加载控制器:Login
+
